@@ -1,4 +1,4 @@
-# Guia de instalação e atualização — Seguidores Locais 1.1.2
+# Guia de instalação e atualização — Não Seguidores Free 1.1.2
 
 ## Instalação inicial
 
