@@ -1,28 +1,53 @@
 # EDUARDORB WORLD | Seguidores Locais
 
-**Versão 1.1.2 · Extensão para Chrome · Uso gratuito**
+![Version](https://img.shields.io/badge/versão-1.1.2-2563eb)
+![Chrome](https://img.shields.io/badge/Chrome-110%2B-38bdf8)
+![Free](https://img.shields.io/badge/uso-gratuito-16803c)
 
-Analise exportações do Instagram e organize sua revisão de seguidores e perfis pelo navegador. Projeto independente, sem vínculo com Instagram ou Meta.
+Extensão independente para análise local de exportações do Instagram, comparação de seguidores e revisão de perfis. Não possui vínculo com a Meta.
 
-## Instalação
+## Download e instalação
 
-1. Quando a distribuição pública estiver habilitada, use Code → Download ZIP na página do repositório.
-2. Extraia o ZIP.
-3. Abra `chrome://extensions` e habilite o modo desenvolvedor.
-4. Clique em Carregar sem compactação e selecione a pasta que contém `manifest.json`.
+[**Baixar pacote ZIP do repositório**](https://github.com/eduardorbworld/insta-auto-extension/archive/refs/heads/main.zip) (disponível quando o repositório estiver público).
 
-Chrome 110 ou superior. Brave pode ser utilizado via `brave://extensions`, mas não foi validado em navegador real nesta versão.
+1. Extraia o ZIP em uma pasta permanente.
+2. Abra `chrome://extensions` no Chrome ou `brave://extensions` no Brave.
+3. Ative o modo desenvolvedor e selecione **Carregar sem compactação**.
+4. Escolha a pasta que contém diretamente o arquivo `manifest.json`.
+5. Abra a extensão pelo menu de extensões do navegador.
 
-## Atualização e segurança
+## Recursos
 
-Faça backup dos dados locais antes de atualizar. Preserve a pasta original de instalação. Consulte as [notas originais](LEIA-ME-v1.1.2.txt).
+- Comparação de seguidores e contas seguidas com base em exportações.
+- Organização de perfis para revisão.
+- Lista de proteção e armazenamento local.
+- Controles de pausa e acompanhamento de progresso.
 
-A extensão declara permissões de armazenamento, scripting, alarms e acesso ao Instagram Web. Não publique exportações pessoais, cookies ou credenciais. A análise depende da exportação fornecida e pode estar desatualizada. Revise as regras do Instagram; automações podem resultar em restrições na conta. Não foi realizado teste real de conta ou auditoria completa de segurança.
+## Perguntas frequentes
 
-## Licença
+**A extensão precisa da minha senha?** Não forneça sua senha à extensão nem compartilhe cookies ou tokens.
 
-Uso gratuito e modificações para uso próprio. Revenda e redistribuição não autorizadas são proibidas, respeitadas as licenças de terceiros. Consulte [LICENSE](LICENSE).
+**Os resultados são em tempo real?** Não. A reciprocidade depende da exportação importada. Confira os dados e revise os perfis antes de qualquer ação.
 
-[Portfólio oficial](https://eduardorbworld.github.io/eduardorbworld/)
+**O navegador não encontra o manifesto?** Verifique se selecionou a pasta extraída correta, não o ZIP nem a pasta superior.
 
-Pacote compilado; código de desenvolvimento original não incluído.
+**Como atualizar?** Faça backup dos dados, preserve a pasta de instalação original e consulte as [notas da versão](LEIA-ME-v1.1.2.txt).
+
+**Há risco para minha conta?** Sim. Ações automatizadas podem resultar em restrições ou suspensão. Respeite as regras do Instagram. Nenhuma cadência garante segurança.
+
+## Suporte
+
+[Relatar problema ou sugerir melhoria](https://github.com/eduardorbworld/insta-auto-extension/issues).
+
+Informe a versão da extensão, navegador, sistema operacional e descrição do problema. Nunca anexe dados de seguidores, cookies, credenciais ou backups pessoais.
+
+## Privacidade, licença e limitações
+
+- [Privacidade](PRIVACY.md)
+- [Licença de uso gratuito](LICENSE)
+- [Inventário preliminar de terceiros](THIRD_PARTY_NOTICES.md)
+- [Notas da versão](LEIA-ME-v1.1.2.txt)
+
+Uso gratuito e modificações para uso próprio; redistribuição e revenda não autorizadas são proibidas para componentes próprios, respeitadas as licenças de terceiros. O pacote é compilado. A auditoria integral de segurança e o inventário completo de dependências permanecem pendentes. O desenvolvedor relata teste prático bem-sucedido; não houve validação independente.
+
+[Portfólio oficial — EDUARDORB WORLD](https://eduardorbworld.github.io/eduardorbworld/)
