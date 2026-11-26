@@ -1,12 +1,14 @@
-# EDUARDORB WORLD | Seguidores Locais
+# EDUARDORB WORLD | Não Seguidores Free
 
-![Seguidores Locais — EDUARDORB WORLD](branding/banner.svg)
+![Não Seguidores Free — EDUARDORB WORLD](branding/banner.svg)
 
 ![Version](https://img.shields.io/badge/versão-1.1.2-2563eb)
 ![Chrome](https://img.shields.io/badge/Chrome-110%2B-38bdf8)
 ![Free](https://img.shields.io/badge/uso-gratuito-16803c)
 
-Extensão independente para análise local de exportações do Instagram, comparação de seguidores e revisão de perfis. Não possui vínculo com a Meta.
+Extensão gratuita para analisar e remover automaticamente não seguidores do Instagram, com base em exportações de dados. Não possui vínculo com a Meta.
+
+O pacote fixo v1.1.2 ainda aparece no navegador como **Seguidores Locais**, seu nome anterior. A mudança de marca não altera o funcionamento do pacote.
 
 ## Download e instalação
 
