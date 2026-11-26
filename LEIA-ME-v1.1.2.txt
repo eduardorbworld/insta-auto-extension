@@ -1,0 +1,25 @@
+SEGUIDORES LOCAIS 1.1.2 — atualização do pacote 1.1.1
+
+Mudanças: remoção contínua agendada pelo service worker (chrome.alarms), progresso
+em armazenamento local, estado da sessão em chrome.storage.session, pausa e
+interrupção segura quando o resultado é incerto. Uma tentativa por vez, espera
+mínima de 60 segundos após a tentativa, 15 minutos após 50 tentativas e limite
+diário original. O painel pode ser fechado no modo sem criptografia; mantenha a
+aba do Instagram criada pela extensão aberta, o navegador aberto e o PC acordado.
+Fechar o navegador encerra a autorização; não há retomada automática no dia seguinte.
+A análise rápida e o modo com dados criptografados permanecem dependentes do painel.
+Pause a sessão antes de editar dados, fila, proteções ou configurações.
+
+Atualização: faça backup dos dados em Configurações, pause a sessão antiga, abra
+brave://extensions (ou chrome://extensions), identifique a pasta usada pela extensão
+existente e substitua os arquivos dessa pasta pelos desta versão. Mantenha o mesmo
+caminho da pasta; use Recarregar e confira se a versão mudou para 1.1.2. Não remova
+a extensão antiga antes de fazer backup. Uma instalação em pasta diferente pode
+receber outro ID e não acessar os dados anteriores.
+
+Validação: sintaxe JavaScript e simulação de eventos do navegador com fila de três
+perfis, duas remoções em sequência, perfil protegido, limite diário, pausa, bloqueio
+simulado e interrupção de execução. Não testado em uma conta real do Instagram,
+em Brave/Chrome real ou com Windows bloqueado. Alarmes podem atrasar. Nenhum ritmo
+elimina o risco de restrições do Instagram. A reciprocidade é baseada na exportação,
+não é verificada ao vivo; importe dados recentes e revise a fila antes de autorizar.
