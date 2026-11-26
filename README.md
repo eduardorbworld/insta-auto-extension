@@ -18,6 +18,8 @@ Extensão independente para análise local de exportações do Instagram, compar
 4. Escolha a pasta que contém diretamente o arquivo `manifest.json`.
 5. Abra a extensão pelo menu de extensões do navegador.
 
+**[Guia completo de instalação, atualização e solução de problemas](INSTALLATION.md)** · [Preparação de pacotes e checksums](PACKAGING.md)
+
 ## Recursos
 
 - Comparação de seguidores e contas seguidas com base em exportações.
@@ -38,6 +40,9 @@ Extensão independente para análise local de exportações do Instagram, compar
 **Há risco para minha conta?** Sim. Ações automatizadas podem resultar em restrições ou suspensão. Respeite as regras do Instagram. Nenhuma cadência garante segurança.
 
 ## Suporte
+
+[Página oficial do produto](https://eduardorbworld.github.io/eduardorbworld/seguidores-locais.html)
+
 
 [Relatar problema ou sugerir melhoria](https://github.com/eduardorbworld/insta-auto-extension/issues).
 
