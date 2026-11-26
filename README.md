@@ -10,7 +10,7 @@ Extensão independente para análise local de exportações do Instagram, compar
 
 ## Download e instalação
 
-[**Baixar pacote ZIP do repositório**](https://github.com/eduardorbworld/insta-auto-extension/archive/refs/heads/main.zip) (disponível quando o repositório estiver público).
+[**Baixar pacote ZIP do repositório**](https://github.com/eduardorbworld/insta-auto-extension/archive/36d71e2f6ccd3a015b62435ec943cadaa1e36b24.zip) — versão 1.1.2, revisão fixa `36d71e2`.
 
 1. Extraia o ZIP em uma pasta permanente.
 2. Abra `chrome://extensions` no Chrome ou `brave://extensions` no Brave.
