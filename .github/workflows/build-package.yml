@@ -1,0 +1,32 @@
+name: Build installation package
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node tools/check-package.mjs
+      - name: Package approved runtime files
+        shell: bash
+        run: |
+          set -euo pipefail
+          version=$(node -p "require('./manifest.json').version")
+          [[ "$version" =~ ^[0-9]+(\.[0-9]+){1,3}$ ]]
+          mkdir -p output
+          archive="seguidores-locais-v${version}.zip"
+          zip -X -q -r "output/$archive" manifest.json index.html background.js assets icons README.md LICENSE PRIVACY.md THIRD_PARTY_NOTICES.md LEIA-ME-v1.1.2.txt
+          cd output
+          unzip -t "$archive"
+          sha256sum "$archive" > "$archive.sha256"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: seguidores-locais-installation-package
+          path: output/
+          if-no-files-found: error
+          retention-days: 30
