@@ -1,5 +1,7 @@
 # EDUARDORB WORLD | Seguidores Locais
 
+![Seguidores Locais — EDUARDORB WORLD](branding/banner.svg)
+
 ![Version](https://img.shields.io/badge/versão-1.1.2-2563eb)
 ![Chrome](https://img.shields.io/badge/Chrome-110%2B-38bdf8)
 ![Free](https://img.shields.io/badge/uso-gratuito-16803c)
