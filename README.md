@@ -1,28 +1,28 @@
-# Insta Auto — Seguidores Locais
+# EDUARDORB WORLD | Seguidores Locais
 
-Private repository containing the imported, compiled Chrome extension package, version **1.1.2**.
+**Versão 1.1.2 · Extensão para Chrome · Uso gratuito**
 
-## Overview
+Analise exportações do Instagram e organize sua revisão de seguidores e perfis pelo navegador. Projeto independente, sem vínculo com Instagram ou Meta.
 
-Local analysis of Instagram exports and browser-based profile review. The original package uses Manifest V3 and declares Chrome 110 or later as its minimum version.
+## Instalação
 
-## Installation
+1. Quando a distribuição pública estiver habilitada, use Code → Download ZIP na página do repositório.
+2. Extraia o ZIP.
+3. Abra `chrome://extensions` e habilite o modo desenvolvedor.
+4. Clique em Carregar sem compactação e selecione a pasta que contém `manifest.json`.
 
-Download or clone this private repository. Open `chrome://extensions` (or `brave://extensions`), enable Developer mode and select Load unpacked. Choose the folder containing `manifest.json`.
+Chrome 110 ou superior. Brave pode ser utilizado via `brave://extensions`, mas não foi validado em navegador real nesta versão.
 
-For existing installations, back up local data before replacing files and retain the original installation folder. See [the original Portuguese release notes](LEIA-ME-v1.1.2.txt).
+## Atualização e segurança
 
-## Repository structure
+Faça backup dos dados locais antes de atualizar. Preserve a pasta original de instalação. Consulte as [notas originais](LEIA-ME-v1.1.2.txt).
 
-- `manifest.json`: extension metadata and permissions
-- `background.js`: background entry point
-- `index.html`: extension interface entry point
-- `assets/`: compiled JavaScript and CSS
-- `icons/`: extension icons
-- `LEIA-ME-v1.1.2.txt`: original release notes
+A extensão declara permissões de armazenamento, scripting, alarms e acesso ao Instagram Web. Não publique exportações pessoais, cookies ou credenciais. A análise depende da exportação fornecida e pode estar desatualizada. Revise as regras do Instagram; automações podem resultar em restrições na conta. Não foi realizado teste real de conta ou auditoria completa de segurança.
 
-## Verification and limitations
+## Licença
 
-Manifest, entry points, referenced assets and four icons were checked for presence in the repository. This is not a runtime test, complete security audit or byte-for-byte comparison with the original archive. Original development sources are not included in this compiled distribution. The release notes state that real-account and locked-Windows testing were not performed.
+Uso gratuito e modificações para uso próprio. Revenda e redistribuição não autorizadas são proibidas, respeitadas as licenças de terceiros. Consulte [LICENSE](LICENSE).
 
-Keep account exports, session data, credentials and tokens outside version control. Review platform rules and browser permissions before use or distribution.
+[Portfólio oficial](https://eduardorbworld.github.io/eduardorbworld/)
+
+Pacote compilado; código de desenvolvimento original não incluído.
